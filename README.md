@@ -36,9 +36,12 @@ This repository provides a collection of theoretical functions for computing the
 
 ---
 
-Functions8
+## Functions
+
 **carnahan_starling**	Carnahan-Starling equation of state
+
 **boublik_mansoori_CS**	Equation of state for polydisperse systems
+
 **monodisperse_correlation_function**	Pair correlation from OZ+PY (monodisperse)
 **laplace_binary_correlation_function**	Laplace-space g(s) for bidisperse systems
 **alpha_RFA, laplace_RFA, rdf_RFA**	Full RFA-based structural analysis
