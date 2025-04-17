@@ -17,7 +17,7 @@ This repository provides a collection of theoretical functions for computing the
 
   ## 📦 Main Features(data analysis)
 
--  Compute **radial distribution functions** (`g(r)`) from trajectory files
+- Compute **radial distribution functions** (`g(r)`) from trajectory files
 - Analyze **gyration radius** and its evolution over time
 - Extract **end-to-end distances** and **Kuhn length distributions** for polymers
 - Calculate **mean squared displacement** for atoms or chains
@@ -38,22 +38,19 @@ This repository provides a collection of theoretical functions for computing the
 
 ## Functions
 
-**carnahan_starling**	Carnahan-Starling equation of state
+- **carnahan_starling**	Carnahan-Starling equation of state
+- **boublik_mansoori_CS**	Equation of state for polydisperse systems
+- **monodisperse_correlation_function**	Pair correlation from OZ+PY (monodisperse)
+- **laplace_binary_correlation_function**	Laplace-space g(s) for bidisperse systems
+- **alpha_RFA, laplace_RFA, rdf_RFA**	Full RFA-based structural analysis
+- **second_virial_coefficient_from_rdf**	Second virial from g(r)
+- **write_potential_table**	Export potentials for LAMMPS simulations
+- **radial_distribution** **radial_distribution_done_right** Calculates pairwise distances and builds RDF
+- **gyration_radius** Computes the radius of gyration over time
+- **end_to_end_distance** Computes polymer end-to-end distance per frame 
+- **mean_squared_displacement** **mean_squared_displacement_polymer** Tracks atom/chain diffusion 
+- **kuhn_length_distribution** | Calculates bond lengths for polymer chains 
+- **density_fluctuation** Measures spatial fluctuations in particle density 
+- **swelling_parameter_sigma** Computes a measure of polymer swelling over blocks 
 
-**boublik_mansoori_CS**	Equation of state for polydisperse systems
-
-**monodisperse_correlation_function**	Pair correlation from OZ+PY (monodisperse)
-**laplace_binary_correlation_function**	Laplace-space g(s) for bidisperse systems
-**alpha_RFA, laplace_RFA, rdf_RFA**	Full RFA-based structural analysis
-**second_virial_coefficient_from_rdf**	Second virial from g(r)
-**write_potential_table**	Export potentials for LAMMPS simulations
-**radial_distribution** **radial_distribution_done_right** Calculates pairwise distances and builds RDF
-**gyration_radius** Computes the radius of gyration over time
-**end_to_end_distance** Computes polymer end-to-end distance per frame 
-**mean_squared_displacement** **mean_squared_displacement_polymer** Tracks atom/chain diffusion 
-**kuhn_length_distribution** | Calculates bond lengths for polymer chains 
-**density_fluctuation** Measures spatial fluctuations in particle density 
-**swelling_parameter_sigma** Computes a measure of polymer swelling over blocks 
-
----
 ---
