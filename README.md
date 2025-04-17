@@ -15,7 +15,7 @@ This repository provides a collection of theoretical functions for computing the
 - **Calculation of second virial coefficients**
 - **Output of effective potentials** in a LAMMPS-compatible format
 
-  ## 📦 Main Features(data analysis)
+## 📦 Main Features(data analysis)
 
 - Compute **radial distribution functions** (`g(r)`) from trajectory files
 - Analyze **gyration radius** and its evolution over time
