@@ -7,30 +7,25 @@ This repository provides a collection of theoretical functions for computing the
   - Carnahan-Starling (monodisperse)
   - Boublik-Mansoori-Carnahan-Starling (polydisperse)
   - Ideal gas limit
-
 - **Pair correlation functions**:
   - Monodisperse systems via the Ornstein-Zernike equation with Percus-Yevick closure
   - Bidisperse systems in Laplace space
   - Full RFA (Rational Function Approximation) approach for polydisperse systems
-
 - **Laplace and real-space transforms** of radial distribution functions
-
 - **Calculation of second virial coefficients**
-
 - **Output of effective potentials** in a LAMMPS-compatible format
-
 
   ## 📦 Main Features(data analysis)
 
-- ✔️ Compute **radial distribution functions** (`g(r)`) from trajectory files
-- ✔️ Analyze **gyration radius** and its evolution over time
-- ✔️ Extract **end-to-end distances** and **Kuhn length distributions** for polymers
-- ✔️ Calculate **mean squared displacement** for atoms or chains
-- ✔️ Measure **density fluctuations** and **local densities**
-- ✔️ Generate visualizations and phase diagrams for crowding behavior
+-  Compute **radial distribution functions** (`g(r)`) from trajectory files
+- Analyze **gyration radius** and its evolution over time
+- Extract **end-to-end distances** and **Kuhn length distributions** for polymers
+- Calculate **mean squared displacement** for atoms or chains
+- Measure **density fluctuations** and **local densities**
+- Generate visualizations and phase diagrams for crowding behavior
 ---
 
-## 🧪 Dependencies
+## Dependencies
 
 - `numpy`
 - `scipy`
